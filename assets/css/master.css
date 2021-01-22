@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -65,28 +66,48 @@ main.container > section {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.bord-rad{
+  border-radius: 10px;
+}
+
 /* ---- Utility ---- */
 
 /* ---- Background ---- */
 
-.bg-pink {
-  background-color: rgb(215, 129, 224);
+.jambo {
+  background-image: url('../img/banner.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
-.bg-yellow {
-  background-color: rgb(223, 214, 134);
+.bg-left{
+  background-image: url('../img/img-1.jpg');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
-.bg-cyan {
-  background-color: rgb(178, 206, 228);
+.bg-center {
+  background-image: url('../img/banner-2.jpg');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
-.bg-blue {
-  background-color: rgb(60, 147, 248);
-}
-
-.bg-purple {
-  background-color: rgb(124, 39, 245);
+.bg-right {
+  background-image: url('../img/img-3.jpg');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
 /* ---- Background ---- */
@@ -103,20 +124,9 @@ main.container > section {
 .voci-menu {
   display: inline-block;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
   color: rgb(180, 180, 180);
   margin-right: 5px;
   font-weight: 400;
-}
-
-.jambo {
-  background-image: url('../img/banner.jpg');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-  border-radius: 10px;
 }
 
 .title {
@@ -126,16 +136,44 @@ main.container > section {
   padding-left: 45px;
 }
 
-.title > h1 {
-  font-family: 'Open Sans', sans-serif;
+.title > h2 {
   font-weight: 300;
   font-size: 32px;
   line-height: 31px;
 }
 
 .title > p {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 20px;
+}
+
+.banner-leader{
+  margin: 20px 0;
+}
+
+.banner-leader > h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.banner-leader > p {
+  color: rgb(180, 180, 180);
+  font-size: 15px;
+  font-weight: 200;
+}
+
+
+.description {
+
+}
+
+.description > h3 {
+  margin: 15px 0;
+  color: rgb(123, 123, 123);
+}
+
+.description > p {
+  color: rgb(180, 180, 180);
 }
