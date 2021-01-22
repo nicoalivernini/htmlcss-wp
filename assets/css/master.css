@@ -92,49 +92,50 @@ main.container > section {
 /* ---- Background ---- */
 
 .logo {
-  width: 90px;
+  width: 140px;
   vertical-align: middle;
 }
 
 .menu {
-  margin: 15px 0px;
+  margin: 25px 0px;
 }
 
 .voci-menu {
   display: inline-block;
-  font-size: 8px;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   color: rgb(180, 180, 180);
-  margin-right: 3px;
+  margin-right: 5px;
   font-weight: 400;
 }
 
 .jambo {
   background-image: url('../img/banner.jpg');
-  height: 360px;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
+  border-radius: 10px;
 }
 
 .title {
-  width: 62%;
+  width: 55%;
   color: #fff;
-  padding-top: 120px;
-  padding-left: 20px;
+  padding-top: 320px;
+  padding-left: 45px;
 }
 
 .title > h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 15px;
-  line-height: 16px;
+  font-size: 32px;
+  line-height: 31px;
 }
 
 .title > p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 8px;
-  line-height: 9px;
+  font-size: 18px;
+  line-height: 20px;
 }
