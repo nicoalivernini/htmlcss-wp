@@ -61,6 +61,10 @@ main.container > section {
   height: 50px;
 }
 
+.overlay{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* ---- Utility ---- */
 
 /* ---- Background ---- */
@@ -103,4 +107,34 @@ main.container > section {
   color: rgb(180, 180, 180);
   margin-right: 3px;
   font-weight: 400;
+}
+
+.jambo {
+  background-image: url('../img/banner.jpg');
+  height: 360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.title {
+  width: 62%;
+  color: #fff;
+  padding-top: 120px;
+  padding-left: 20px;
+}
+
+.title > h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.title > p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 9px;
 }
