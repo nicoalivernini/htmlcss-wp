@@ -112,6 +112,8 @@ main.container > section {
 
 /* ---- Background ---- */
 
+/* ---- Header ---- */
+
 .logo {
   width: 140px;
   vertical-align: middle;
@@ -129,6 +131,8 @@ main.container > section {
   font-weight: 400;
 }
 
+/* ---- Header ---- */
+
 .title {
   width: 55%;
   color: #fff;
@@ -138,14 +142,15 @@ main.container > section {
 
 .title > h2 {
   font-weight: 300;
-  font-size: 32px;
-  line-height: 31px;
+  font-size: 25px;
+  line-height: 27px;
+  margin-bottom: 5px;
 }
 
 .title > p {
   font-weight: 300;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .banner-leader{
@@ -164,16 +169,31 @@ main.container > section {
   font-weight: 200;
 }
 
-
-.description {
-
-}
-
 .description > h3 {
   margin: 15px 0;
   color: rgb(123, 123, 123);
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .description > p {
   color: rgb(180, 180, 180);
+  font-weight: 200;
+  font-size: 13px;
+}
+
+/* ---- Footer ---- */
+
+.footer{
+  margin: 15px 0;
+  text-align: center;
+}
+
+.footer > h4 {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.footer > h4 > span {
+  color: red;
 }
